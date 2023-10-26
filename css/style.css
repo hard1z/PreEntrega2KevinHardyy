@@ -56,5 +56,13 @@
     width: 100%;
 }
 
+.img-en-grande {
+    width: 95%;
+    height: auto;
+}
 
-
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
